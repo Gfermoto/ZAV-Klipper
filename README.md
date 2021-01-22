@@ -1,4 +1,4 @@
-# ZAV-Klipper
+# ZAV-Klipper-Moonraker-Fluidd
 
 Configuration files for the ZAV Pro 3.2 printer.
 ========================
