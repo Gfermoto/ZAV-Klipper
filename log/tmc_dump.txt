@@ -1,0 +1,91 @@
+Send: DUMP_TMC STEPPER=stepper_x
+Recv: // ========== Write-only registers ==========
+Recv: // IHOLD_IRUN: 0008110a IHOLD=10 IRUN=17 IHOLDDELAY=8
+Recv: // TPWMTHRS:   00000026 TPWMTHRS=38
+Recv: // TPOWERDOWN: 00000014 TPOWERDOWN=20
+Recv: // SGTHRS:     00000000
+Recv: // ========== Queried registers ==========
+Recv: // GCONF:      000001c0 pdn_disable=1 mstep_reg_select=1 multistep_filt=1
+Recv: // GSTAT:      00000001 reset=1
+Recv: // IFCNT:      0000000e IFCNT=14
+Recv: // OTP_READ:   0000000c OTP_FCLKTRIM=12
+Recv: // IOIN:       21000041 ENN=1 PDN_UART=1 VERSION=0x21
+Recv: // FACTORY_CONF: 0000000c FCLKTRIM=12
+Recv: // TSTEP:      000fffff TSTEP=1048575
+Recv: // MSCNT:      0000002c MSCNT=44
+Recv: // MSCURACT:   00ee0042 CUR_A=66 CUR_B=238
+Recv: // CHOPCONF:   13010053 toff=3 hstrt=5 TBL=2 MRES=3(32usteps) intpol=1
+Recv: // DRV_STATUS: c00a0000 CS_ACTUAL=10 stealth=1 stst=1
+Recv: // PWMCONF:    c80d0e24 PWM_OFS=36 PWM_GRAD=14 pwm_freq=1 pwm_autoscale=1 pwm_autograd=1 PWM_REG=8 PWM_LIM=12
+Recv: // PWM_SCALE:  0000000c PWM_SCALE_SUM=12
+Recv: // PWM_AUTO:   000e0024 PWM_OFS_AUTO=36 PWM_GRAD_AUTO=14
+Recv: // SG_RESULT:  00000000
+
+Send: DUMP_TMC STEPPER=stepper_y
+Recv: // ========== Write-only registers ==========
+Recv: // IHOLD_IRUN: 0008110a IHOLD=10 IRUN=17 IHOLDDELAY=8
+Recv: // TPWMTHRS:   00000026 TPWMTHRS=38
+Recv: // TPOWERDOWN: 00000014 TPOWERDOWN=20
+Recv: // SGTHRS:     00000000
+Recv: // ========== Queried registers ==========
+Recv: // GCONF:      000001c0 pdn_disable=1 mstep_reg_select=1 multistep_filt=1
+Recv: // GSTAT:      00000001 reset=1
+Recv: // IFCNT:      0000000e IFCNT=14
+Recv: // OTP_READ:   0000000c OTP_FCLKTRIM=12
+Recv: // IOIN:       21000041 ENN=1 PDN_UART=1 VERSION=0x21
+Recv: // FACTORY_CONF: 0000000c FCLKTRIM=12
+Recv: // TSTEP:      000fffff TSTEP=1048575
+Recv: // MSCNT:      0000002c MSCNT=44
+Recv: // MSCURACT:   00ee0042 CUR_A=66 CUR_B=238
+Recv: // CHOPCONF:   13010053 toff=3 hstrt=5 TBL=2 MRES=3(32usteps) intpol=1
+Recv: // DRV_STATUS: c00a0000 CS_ACTUAL=10 stealth=1 stst=1
+Recv: // PWMCONF:    c80d0e24 PWM_OFS=36 PWM_GRAD=14 pwm_freq=1 pwm_autoscale=1 pwm_autograd=1 PWM_REG=8 PWM_LIM=12
+Recv: // PWM_SCALE:  0000000c PWM_SCALE_SUM=12
+Recv: // PWM_AUTO:   000e0024 PWM_OFS_AUTO=36 PWM_GRAD_AUTO=14
+Recv: // SG_RESULT:  00000000
+
+Send: DUMP_TMC STEPPER=stepper_z
+Recv: // ========== Write-only registers ==========
+Recv: // IHOLD_IRUN: 0008130a IHOLD=10 IRUN=19 IHOLDDELAY=8
+Recv: // TPWMTHRS:   0000003f TPWMTHRS=63
+Recv: // TPOWERDOWN: 00000014 TPOWERDOWN=20
+Recv: // SGTHRS:     00000000
+Recv: // ========== Queried registers ==========
+Recv: // GCONF:      000001c0 pdn_disable=1 mstep_reg_select=1 multistep_filt=1
+Recv: // GSTAT:      00000001 reset=1
+Recv: // IFCNT:      0000000e IFCNT=14
+Recv: // OTP_READ:   0000000d OTP_FCLKTRIM=13
+Recv: // IOIN:       21000041 ENN=1 PDN_UART=1 VERSION=0x21
+Recv: // FACTORY_CONF: 0000000d FCLKTRIM=13
+Recv: // TSTEP:      000fffff TSTEP=1048575
+Recv: // MSCNT:      00000026 MSCNT=38
+Recv: // MSCURACT:   00f00039 CUR_A=57 CUR_B=240
+Recv: // CHOPCONF:   12010053 toff=3 hstrt=5 TBL=2 MRES=2(64usteps) intpol=1
+Recv: // DRV_STATUS: c00a0000 CS_ACTUAL=10 stealth=1 stst=1
+Recv: // PWMCONF:    c80d0e24 PWM_OFS=36 PWM_GRAD=14 pwm_freq=1 pwm_autoscale=1 pwm_autograd=1 PWM_REG=8 PWM_LIM=12
+Recv: // PWM_SCALE:  0000000c PWM_SCALE_SUM=12
+Recv: // PWM_AUTO:   000e0024 PWM_OFS_AUTO=36 PWM_GRAD_AUTO=14
+Recv: // SG_RESULT:  00000000
+
+Send: DUMP_TMC STEPPER=extruder
+Recv: // ========== Write-only registers ==========
+Recv: // IHOLD_IRUN: 0008130c IHOLD=12 IRUN=19 IHOLDDELAY=8
+Recv: // TPWMTHRS:   0000016a TPWMTHRS=362
+Recv: // TPOWERDOWN: 00000014 TPOWERDOWN=20
+Recv: // SGTHRS:     00000000
+Recv: // ========== Queried registers ==========
+Recv: // GCONF:      000001c0 pdn_disable=1 mstep_reg_select=1 multistep_filt=1
+Recv: // GSTAT:      00000001 reset=1
+Recv: // IFCNT:      0000000e IFCNT=14
+Recv: // OTP_READ:   0000000d OTP_FCLKTRIM=13
+Recv: // IOIN:       21000041 ENN=1 PDN_UART=1 VERSION=0x21
+Recv: // FACTORY_CONF: 0000000d FCLKTRIM=13
+Recv: // TSTEP:      000fffff TSTEP=1048575
+Recv: // MSCNT:      0000002c MSCNT=44
+Recv: // MSCURACT:   00ee0042 CUR_A=66 CUR_B=238
+Recv: // CHOPCONF:   13030053 toff=3 hstrt=5 TBL=2 vsense=1 MRES=3(32usteps) intpol=1
+Recv: // DRV_STATUS: c00c0000 CS_ACTUAL=12 stealth=1 stst=1
+Recv: // PWMCONF:    c80d0e24 PWM_OFS=36 PWM_GRAD=14 pwm_freq=1 pwm_autoscale=1 pwm_autograd=1 PWM_REG=8 PWM_LIM=12
+Recv: // PWM_SCALE:  0000000e PWM_SCALE_SUM=14
+Recv: // PWM_AUTO:   000e0024 PWM_OFS_AUTO=36 PWM_GRAD_AUTO=14
+Recv: // SG_RESULT:  00000000
